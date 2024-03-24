@@ -19,7 +19,7 @@ namespace tpmodul6_1302223027
 
         public SayaTubeVideo(string title)
         {
-            Contract.Assert(title.Length < 200);
+            Contract.Assert(title.Length < 100);
             Contract.Assert(!string.IsNullOrEmpty(title));
             Random random = new Random();   
             this.Title = title;
